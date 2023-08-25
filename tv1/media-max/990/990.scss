@@ -1,0 +1,165 @@
+@media (max-width: 990px) { 
+
+    body {
+        background-image: url(/img/990/990bg.png);
+
+        background-size: auto 3473px;
+        h2 {
+            font-size: 36px;
+        }
+        .container {
+            padding: 0 48px 0 48px;
+        }
+        .big-btn {
+            font-size: 18px;
+            padding: 16px 28px 16px 28px;
+            width: 380px;
+        }
+    }
+
+    .banner {
+        height: 398px;    
+        .banner-info {
+            padding-top: 48px;
+            h1 {
+                font-size: 38px;
+            }
+            .banner-description {
+                font-size: 18px;
+                margin-bottom: 48px;    
+            }
+        }
+        &-img {
+            img {
+                width: 490px;
+                right: 445px;
+                bottom: -50px;
+            }
+        }        
+    }
+    .advantages {
+        height: 254px;
+        padding-top: 32px;    
+    
+        .advantage-item {
+            width: 206px;
+            .advantage-info {
+                p {
+                    margin-top: 16px;
+                }
+            }
+        }
+        .advantage-img {
+            img {
+                width: 64px;
+            }
+        }
+    }
+
+    .channels {
+        height: 635px;
+    
+        .show-all {
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+        
+        &-title {
+            padding-top: 67px;
+            h2::after {
+                bottom: 45px;
+                left: 224px;
+            }
+            p {
+                margin: 20px 0 33px 0;
+            }
+        }
+    
+        &-filter {
+            margin-bottom: 50px;
+            ul {
+                flex-wrap: wrap;
+                gap: 16px;
+                li {
+                    padding: 12px 24px 12px 24px;
+                    font-size: 16px;
+                    width: 23%;
+                }
+            }
+        }
+        &-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 32px 50px;
+            margin-bottom: 16px;    
+            .channel {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .devices {
+        height: 587px;
+        padding-top: 83px;
+        &-info {
+            .devices-description {
+                max-width: 530px;        
+                h2 {
+                    margin-bottom: 24px;
+                }
+                p {
+                    margin-bottom: 40px;
+                }
+                a {
+                    margin-bottom: 125px;
+                }
+            }
+        }
+        &-img {
+            img {
+                position: relative;
+                bottom: 390px;
+                width: 490px!important;
+                left: 400px;
+
+            }
+        }
+    }
+
+    .faq {
+        height: 474px;
+        padding-top: 57px;    
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        &-item {
+            .answear{
+                font-size: 18px;
+                max-width: 400px;
+                margin-bottom: 40px;
+            }
+
+            .active {
+                display: none;
+            }
+        }
+    }
+
+    footer {
+        height: 427px;
+        .support-social {
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .payment {
+            img {
+                height: 32px;
+            }
+        }
+    }
+}

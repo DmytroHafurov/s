@@ -1,0 +1,133 @@
+@media (max-width: 320px) {
+  body {
+    background-image: url(/img/320/320bg.png);
+    background-size: auto 3547px;
+  }
+  body h2 {
+    font-size: 24px;
+  }
+  body .big-btn {
+    font-size: 15px;
+    padding: 13px;
+    width: 100%;
+  }
+  .header-nav {
+    height: 80px;
+  }
+  .banner {
+    height: 421px;
+  }
+  .banner .banner-info {
+    width: 100%;
+    padding-top: 16px;
+  }
+  .banner .banner-info h1 {
+    font-size: 24px;
+    margin-bottom: 195px;
+  }
+  .banner .banner-info .banner-description {
+    margin-bottom: 24px;
+    font-size: 15px;
+    max-width: 100%;
+  }
+  .banner-img img {
+    width: 304px;
+    height: auto;
+    right: 304px;
+    bottom: -80px;
+  }
+  .pricing {
+    height: 654px;
+  }
+  .pricing-img {
+    top: 74px;
+    max-width: 40px;
+    left: calc(50% - 20px);
+  }
+  .pricing-item .connect {
+    padding-top: 10px;
+  }
+  .pricing-item .connect input {
+    width: 256px;
+  }
+  .pricing-item .connect a {
+    width: 256px;
+    font-size: 15px;
+  }
+  .pricing-description .condition {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+  .pricing-description .custom-li li {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+  .channels {
+    height: 459px;
+  }
+  .channels-title h2 {
+    height: 34px;
+  }
+  .channels-title h2::after {
+    bottom: 24px;
+    left: 150px;
+  }
+  .channels-title p {
+    margin: 8px 0 24px 0;
+    font-size: 15px;
+  }
+  .devices {
+    height: 631px;
+  }
+  .devices-info .devices-description {
+    max-width: 100%;
+  }
+  .devices-info .devices-description p {
+    font-size: 15px;
+    margin-bottom: 190px;
+  }
+  .devices-info .devices-description a {
+    font-size: 15px;
+  }
+  .devices-templates {
+    flex-wrap: wrap;
+  }
+  .devices-img img {
+    position: relative;
+    bottom: 286px;
+    width: 304px !important;
+    left: -2px;
+  }
+  .faq {
+    height: 650px;
+    padding-top: 0px;
+  }
+  .faq h2 {
+    margin-bottom: 24px;
+  }
+  footer {
+    height: 652px;
+    padding-top: 48px;
+  }
+  footer .about {
+    font-size: 14px;
+  }
+  footer .about ul {
+    max-width: 100%;
+  }
+  footer .about ul li {
+    margin-bottom: 8px;
+  }
+  footer .support {
+    flex-direction: column;
+  }
+  footer .support p {
+    display: block;
+  }
+  footer .payment {
+    margin-top: 18px;
+  }
+  footer .payment img {
+    height: 32px;
+  }
+}/*# sourceMappingURL=320.css.map */

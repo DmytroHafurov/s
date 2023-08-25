@@ -1,0 +1,158 @@
+@media (max-width: 320px) { 
+
+    body {
+        background-image: url(/img/320/320bg.png);
+        background-size: auto 3547px;
+        h2 {
+            font-size: 24px;
+        }
+        .big-btn {
+            font-size: 15px;
+            padding: 13px;
+            width: 100%;
+        }
+    }
+    .header-nav {    
+        height: 80px;
+    }
+
+    .banner {
+        height: 421px;
+        .banner-info {
+            width: 100%;
+            padding-top: 16px; 
+            h1 {
+                font-size: 24px;
+                margin-bottom: 195px;
+            }
+            .banner-description {
+                margin-bottom: 24px;
+                font-size: 15px;
+
+                max-width: 100%;
+            }
+        }
+        &-img {
+            img {
+                width: 304px;
+                height: auto;
+                right: 304px;
+                bottom: -80px
+            }
+        }
+    }
+
+    .pricing {
+        height: 654px;
+        &-img {
+            top: 74px;
+            max-width: 40px;
+            left: calc(50% - 20px);
+        }
+        &-item {
+            .connect {
+                padding-top: 10px;
+                input {
+                    width: 256px;
+                }
+                a {
+                    width: 256px;
+                    font-size: 15px;
+                }
+            }
+        }
+    
+        &-description {
+            .condition {
+                font-size: 15px;
+                margin-bottom: 24px;
+            }
+        
+            .custom-li {
+                li {
+                    margin-bottom: 15px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    
+    .channels {
+        height: 459px;       
+        &-title {
+            h2 {
+                height: 34px;
+            }
+            h2::after {
+                bottom: 24px;
+                left: 150px;
+            }
+            p {
+                margin: 8px 0 24px 0;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .devices {
+        height: 631px;
+        &-info {
+            .devices-description {
+                max-width: 100%;
+                p {
+                    font-size: 15px;
+                    margin-bottom: 190px;
+                }
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+        &-templates {
+            flex-wrap: wrap;
+        }
+        &-img {
+            img {
+                position: relative;
+                bottom: 286px;
+                width: 304px!important;
+                left: -2px;
+            }
+        }
+    }
+
+    .faq {
+        height: 650px;
+        padding-top: 0px;    
+        h2 {
+            margin-bottom: 24px;
+        }
+    }
+
+    footer {
+        height: 652px;
+        padding-top: 48px;
+        .about {
+            font-size: 14px;
+            ul {
+                max-width: 100%;
+                li {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+        .support {
+            flex-direction: column;
+            p {
+                display: block;
+            }
+        }
+
+        .payment {
+            margin-top: 18px;
+            img {
+                height: 32px;
+            }
+        }
+    }
+}

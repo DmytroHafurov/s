@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/img/logo-header.png" alt="">
+                    
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Проекты</a></li>
+                    <li><a href="#">Сертификаты</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="project-home">
+            <div class="slide left ">
+                <div class="title anim-items">
+                    <h1>
+                        <span class="primary">Project</span>
+                        <span>Home</span>
+                    </h1>
+
+                </div>
+                
+                <div class="buttons">
+                    <button ><img src="/img/arrow-left.svg" alt="left"></button>
+                    <button><img src="/img/arrow-right.svg" alt="right"></button>
+                </div>
+
+                <div class="count primary">
+                    <span class="num">01</span>
+                    <img src="/img/line.svg" alt="">
+                    <span class="num">02</span>
+                </div>
+            </div>
+
+    
+            <div class="banner">
+                <img class="banner-image" src="/img/1.png" alt="">
+                <button class="big-btn banner-button">Взглянуть<img src="/img/arrow-right.svg" alt="right"></button>                
+            </div>
+    
+        </div>
+        <div class="spacer"></div>
+
+        <div class="about">
+            <div class="images">
+                <img src="/img/2.png" alt="render-template">
+                <img src="/img/3.png" alt="render-template">
+                <img src="/img/4.png" alt="render-template">
+            </div>
+
+            <div class="about-description ">
+                <div class="about-title anim-items">
+                    <h2 class="primary ">О компании</h2>
+                </div>
+                <div class="description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </div>
+                <button class="big-btn ">Читать<img src="/img/arrow-right.svg" alt="right"></button>
+            </div>
+        </div>
+        <div class="spacer"></div>
+
+            <div class="tasks anim-items">
+                <h3 class="primary">Основные задачи</h3>
+                <ol>
+                    <li>Создание комфортных <br>
+                    условий и повышение <br>
+                    качества обслуживания <br>
+                    клиентов</li>
+                    <li>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</li>
+                </ol>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="projects">
+                <h4 class="primary">Наши проекты</h4>
+                <div class="portfolio">
+                    <div class="row">
+
+                        <div class="portfolio-img">
+
+
+                            <img src="/img/portfolio1.png" alt="">
+                            <div class="hover-effect">
+                                <p class="x">Досуговый центр</p>
+                                <button class="big-btn">
+                                    Подробнее<img src="/img/arrow-right.svg" alt="">
+                                </button>
+                            </div>
+
+
+                        </div>
+
+                        <div class="portfolio-img">
+                            <a href="#">
+                                <img src="/img/portfolio2.png" alt="">
+                                <div class="hover-effect">Lorem</div></a>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="portfolio-img">
+                            <a href="#">
+                                <img src="/img/portfolio3.png" alt="">
+                                <div class="project-name">Lorem</div>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-img">
+                            <a href="#">
+                                <img src="/img/portfolio4.png" alt="">
+                                <div class="project-name">Lorem</div>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-img">
+                            <a href="#">
+                                <img src="/img/portfolio5.png" alt="">
+                                <div class="project-name">Lorem</div>
+                            </a>
+                        </div>
+                    
+
+
+                    </div>
+                    <button class="big-btn dark">Все проекты<img src="/img/white-arrow-right.png" alt="right"></button>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <div class="contact-us">
+                <h5 class="primary">Связаться с нами </h5>
+                <div class="form-banner">
+                    <form action="/submit_form" method="post">
+
+                        <label for="name">
+                            <input type="text" id="name" name="name" required placeholder="Имя">
+                        </label>
+
+                        <label for="phone">
+                            <input type="tel" id="phone" name="phone" required><span placeholder='Номер телефона'></span>
+                        </label>
+
+                        <label for="email">
+                            <input type="email" id="email" name="email" required><span placeholder='E-mail'></span>
+                        </label>         
+                        
+                        <label for="product">
+                            <input type="text" id="product" name="product" required placeholder="Интересующий товар/услуга">
+                        </label>
+
+                        
+                        <label for="message" >
+                            
+                            <textarea id="message" name="message" required placeholder="Сообщение"></textarea>
+                        </label>
+
+                        <div class="submit">
+                            <input type="checkbox" id="privacy_policy" name="privacy_policy" required>
+                            <label for="privacy_policy">Отправляя заявку Вы соглашаетесь c политикой конфиденциальности</label><br>
+                        </div>
+                
+                        <input type="submit" class="big-btn dark" value="Отправить" > 
+                    </form>
+                    <img src="/img/form-img.png" alt="">
+                </div>
+
+
+            </div>
+
+            <div class="spacer"></div>
+    </div>
+
+    <footer class="dark">
+        <div class="container footer">
+            <img class="footer-logo" src="/img/logo-footer.png" alt="">
+            <div class="info">
+                <p class="footer-title">Информация</p>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Проекты</a></li>
+                    <li><a href="#">Сертификаты</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+
+
+            <div class="contacts">
+                <p class="footer-title">Контакты</p>
+                <div class="adress">
+                    <img src="/img/map.png" alt="dot">
+                    <a href="https://www.google.com/maps/search/Республика%20Казахстан,%20г.%20Караганда,%20ул.%20Телевизионная%2010" target="_blank">
+                        100000, Республика  Казахстан, <br>
+                        г. Караганда, ул. Телевизионная 10
+                    </a>
+                </div>
+
+                <div class="phone">
+                    <img src="/img/phone.png" alt="phone">
+                    <a href="tel:+380000000000">+38(000) 000 00 00</a>
+                </div>
+
+                <div class="mail">
+                    <img src="/img/mail.png" alt="mail">
+                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="social">
+                <p class="footer-title">Социальние сети</p>
+                <ul class="social-logos">
+
+                    <li><a href="https://uk-ua.facebook.com/"><img src="/img/facebook.png" alt="facebook"></a></li>
+
+                    <li><a href="https://twitter.com/?lang=ru"><img src="/img/twitter.png" alt="twitter"></a></li>
+
+                    <li><a href="https://www.linkedin.com/"><img src="/img/linkedin.png" alt="linkedin"></a></li>
+
+                    <li><a href="https://www.pinterest.com/"><img src="/img/pinterest.png" alt="pinterest"></a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <p class="copyright">© Digital Project. Hafurov Dmytro</p>
+    </footer>
+
+
+ <script src="script.js"></script>
+</body>
+</html>

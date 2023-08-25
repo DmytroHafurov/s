@@ -1,0 +1,237 @@
+@media (max-width: 768px) { 
+
+    body {
+        background-image: url(/img/768/768bg.png);
+        background-size: 100% 2990px;
+        h2 {
+            font-size: 30px;
+        }
+        .container {
+            padding: 0 40px 0 40px;
+        }
+        .big-btn {
+            font-size: 17px;
+            padding: 16px 24px 16px 24px;
+            width: 380px;
+        }
+    }
+
+    .header-nav {    
+        height: 110px;
+    
+        .logo {
+            img {
+                max-width: 64px;
+            }
+        }
+    }
+
+    .banner {
+        height: 333px;
+        .banner-info {
+            padding-top: 48px;   
+            width: 400px;
+            min-width: none;
+            h1 {
+                font-size: 32px;
+                margin-bottom: 24px;
+            }
+            .banner-description {
+                margin-bottom: 34px;
+                font-size: 17px;
+            }
+        }
+        &-img {
+            img {
+                display: none;
+            }
+        }
+    }
+
+    .advantages {
+        height: 173px;
+        padding-top: 24px;    
+    
+        .advantage-item {
+            width: 206px;
+            .advantage-info {
+                p {
+                    display: none;
+                }
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+        .advantage-img {
+            margin-bottom: 12px;
+            img {
+                width: 48px;
+            }
+        }
+    }
+
+    .pricing {
+        background-image: url(/img/768/pricing-border768.svg);
+        background-size: 100%;
+        height: 512px;    
+        &-img {
+            top: 63px;
+            max-width: 46px;
+            left: calc(50% - 23px);
+        }
+        &-item {
+            .connect {
+                max-width: 570px;
+
+                input {
+                    width: 300px;
+                    height: 53px;
+                }
+                a {
+                    width: 270px;
+                    height: 53px;
+                    padding: 16px 32px 16px 32px;
+                    font-size: 17px;
+                }
+            }
+        }
+    
+        &-description {
+       
+            .condition {         
+                margin-top: 49px;           
+                font-size: 16px;
+            }
+        
+            .custom-li {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .channels {
+        height: 611px;
+    
+        .show-all {
+            margin-bottom: 24px;
+        }
+        
+        &-title {
+            h2::after {
+                bottom: 40px;
+                left: 186px;
+            }
+            p {
+                margin: 16px 0 32px 0;
+            }
+        }
+    
+        &-filter {
+            margin-bottom: 40px;
+            ul {
+                flex-wrap: wrap;
+                gap: 16px;
+                li {
+                    padding: 12px 18px 12px 18px;
+                    font-size: 14px;
+                    width: 23%;
+                }
+            }
+        }
+        &-list {
+
+            gap: 24px 32px;
+            margin-bottom: 28px;    
+            .channel {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .devices {
+        height: 440px;
+        padding-top: 32px;
+        &-info {
+            .devices-description {
+                max-width: 530px;        
+                p {
+                    margin-bottom: 32px;
+                }
+                a {
+                    margin-bottom: 54px;
+                }
+            }
+        }
+        &-img {
+            img {
+                display: none;
+            }
+        }
+    }
+
+    .faq {
+        height: 388px;
+        padding-top: 40px;
+    
+        h2 {
+            margin-bottom: 24px;    
+        }
+
+        &-item {
+            max-width: 330px;
+            min-height: 64px;
+            margin-bottom: 24px;
+
+            button {
+
+                min-width: 290px;
+                font-size: 16px;
+                span {
+                    max-width: 260px;
+                    font-size: 16px;
+                }
+            }
+    
+            .answear{
+                font-size: 14px;
+                max-width: 260px;
+                margin-bottom: 40px;
+                display: none;
+            }
+    
+            .active {
+                display: none;
+            }
+        }
+    }
+
+    footer {
+        height: 413px;
+        .about {
+            ul {
+                margin-bottom: 28px;
+            }
+        }
+        .support-social {
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .payment {
+            img {
+                height: 32px;
+            }
+        }
+        .footer-company {
+            max-width: 188px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}

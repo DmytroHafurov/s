@@ -1,0 +1,265 @@
+@media (max-width: 375px) { 
+
+    body {
+        background-image: url(/img/375/375bg.png);
+        background-size: 100% 3687px;
+        h2 {
+            font-size: 28px;
+        }
+        .container {
+            padding: 0 16px 0 16px;
+        }
+        .big-btn {
+            font-size: 16px;
+            padding: 16px 24px 16px 24px;
+            width: 340px;
+        }
+    }
+
+    .header-nav {    
+        height: 108px;    
+        .logo {
+            img {
+                max-width: 56px;
+            }
+        }
+        nav {
+            .buttons {
+                a {
+                    padding: 9px 24px 9px 24px;
+                    &:first-child {
+                        display: none;
+                    }
+                }
+            }
+            .social {
+                display: none;
+            }
+        }
+    }
+
+    .advantages {
+        display: none;
+    }
+
+    .banner {
+        height: 473px;
+        width: 100%;
+        .banner-info {
+            padding-top: 24px; 
+            h1 {
+                font-size: 28px;
+                margin-bottom: 203px;
+                max-width: 100%;
+                text-align: center;
+                width: 100%;
+            }
+            .banner-description {
+                margin-bottom: 32px;
+                font-size: 16px;
+                text-align: center;
+                max-width: 100%;
+            }
+        }
+        &-img {
+            img {
+                position: relative;
+                width: 340px;
+                height: auto;
+                right: 340px;
+                bottom: -90px;
+                display: block;
+            }
+        }
+
+
+
+    }
+
+    .pricing {
+        background-image: url(/img/375/pricing-border375.svg);
+        background-size: 99%;
+        height: 683px;
+        &-img {
+            position: absolute;
+            top: 40px;
+            max-width: 44px;
+            left: calc(50% - 22px);
+        }
+        &-item {
+            height: 100%;
+            padding-top: 110px;
+    
+            .connect {
+                max-width: 100%;
+                flex-direction: column;
+                margin: 0 auto;
+                align-items: center;
+                padding-top: 40px;
+                input {
+                    width: 285px;
+                    border-radius: 5px;
+                    margin-bottom: 16px;
+                }
+                a {
+                    width: 285px;
+                    padding: 16px 32px 16px 32px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    
+        &-description {
+            display: grid;
+            margin: 0 auto;
+            max-width: 340px;
+            gap: 0px;
+            margin-bottom: -8px;
+            justify-content: center;
+        
+            .condition {
+                text-align: center;
+                align-items: center;            
+                margin-top: 30px;
+                width: 100%;            
+                font-size: 16px;
+                margin-bottom: 32px;
+            }
+        
+            .custom-li {
+
+                width: 100%;                
+                height: auto;
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 16px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    .channels {
+        height: 498px;       
+        &-title {
+            text-align: center;
+            padding-top: 50px;
+            align-items: center;
+            h2 {
+                height: 40px;
+            }
+            h2::after {
+                bottom: 20px;
+                left: 165px;
+            }
+            p {
+                margin: 13px 0 32px 0;
+            }
+        }
+    
+        &-filter {
+            display: none;
+        }
+        &-list {
+            gap: 16px 16px;
+            margin-bottom: 16px;    
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .channel {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .devices {
+        height: 652px;
+        padding-top: 16px;
+        &-info {
+            text-align: center;
+            .devices-description {
+                max-width: 100%;
+                p {
+                    margin-bottom: 230px;
+                }
+                a {
+                    margin-bottom: 32px;
+                    width: 100%;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &-templates {
+            flex-wrap: wrap;
+            div {
+                width: 50%;
+            }
+        }
+        &-img {
+            img {
+                position: relative;
+                bottom: 300px;
+                width: 300px!important;
+                left: 16px;
+                display: block;
+                z-index: -1;
+            }
+        }
+    }
+
+    .faq {
+        height: 699px;
+        padding-top: 32px;
+    
+        h2 {
+            margin-bottom: 32px;    
+        }
+        &-item {
+            border-bottom: 1px solid #f0f0f0;
+        }
+        &-columns {
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+
+
+    footer {
+        height: 574px;
+        .about {
+            max-width: 100%;
+            flex-wrap: wrap;
+            ul {
+                max-width: 150px;
+            }
+
+        }
+        .support {
+            display: flex;
+            p {
+                display: none;
+            }
+            &-social {
+                p {
+                    display: block;
+                }
+            }
+        }
+
+        .payment {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+            img {
+                height: 32px;
+            }
+        }
+    }    
+}
+
+

@@ -1,0 +1,133 @@
+@media (max-width: 990px) {
+  body {
+    background-image: url(/img/990/990bg.png);
+    background-size: auto 3473px;
+  }
+  body h2 {
+    font-size: 36px;
+  }
+  body .container {
+    padding: 0 48px 0 48px;
+  }
+  body .big-btn {
+    font-size: 18px;
+    padding: 16px 28px 16px 28px;
+    width: 380px;
+  }
+  .banner {
+    height: 398px;
+  }
+  .banner .banner-info {
+    padding-top: 48px;
+  }
+  .banner .banner-info h1 {
+    font-size: 38px;
+  }
+  .banner .banner-info .banner-description {
+    font-size: 18px;
+    margin-bottom: 48px;
+  }
+  .banner-img img {
+    width: 490px;
+    right: 445px;
+    bottom: -50px;
+  }
+  .advantages {
+    height: 254px;
+    padding-top: 32px;
+  }
+  .advantages .advantage-item {
+    width: 206px;
+  }
+  .advantages .advantage-item .advantage-info p {
+    margin-top: 16px;
+  }
+  .advantages .advantage-img img {
+    width: 64px;
+  }
+  .channels {
+    height: 635px;
+  }
+  .channels .show-all {
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  .channels-title {
+    padding-top: 67px;
+  }
+  .channels-title h2::after {
+    bottom: 45px;
+    left: 224px;
+  }
+  .channels-title p {
+    margin: 20px 0 33px 0;
+  }
+  .channels-filter {
+    margin-bottom: 50px;
+  }
+  .channels-filter ul {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .channels-filter ul li {
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    width: 23%;
+  }
+  .channels-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 32px 50px;
+    margin-bottom: 16px;
+  }
+  .channels-list .channel img {
+    width: 100%;
+  }
+  .devices {
+    height: 587px;
+    padding-top: 83px;
+  }
+  .devices-info .devices-description {
+    max-width: 530px;
+  }
+  .devices-info .devices-description h2 {
+    margin-bottom: 24px;
+  }
+  .devices-info .devices-description p {
+    margin-bottom: 40px;
+  }
+  .devices-info .devices-description a {
+    margin-bottom: 125px;
+  }
+  .devices-img img {
+    position: relative;
+    bottom: 390px;
+    width: 490px !important;
+    left: 400px;
+  }
+  .faq {
+    height: 474px;
+    padding-top: 57px;
+  }
+  .faq h2 {
+    margin-bottom: 40px;
+  }
+  .faq-item .answear {
+    font-size: 18px;
+    max-width: 400px;
+    margin-bottom: 40px;
+  }
+  .faq-item .active {
+    display: none;
+  }
+  footer {
+    height: 427px;
+  }
+  footer .support-social img {
+    width: 32px;
+    height: 32px;
+  }
+  footer .payment img {
+    height: 32px;
+  }
+}/*# sourceMappingURL=990.css.map */

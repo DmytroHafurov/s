@@ -1,0 +1,225 @@
+@media (max-width: 375px) {
+  body {
+    background-image: url(/img/375/375bg.png);
+    background-size: 100% 3687px;
+  }
+  body h2 {
+    font-size: 28px;
+  }
+  body .container {
+    padding: 0 16px 0 16px;
+  }
+  body .big-btn {
+    font-size: 16px;
+    padding: 16px 24px 16px 24px;
+    width: 340px;
+  }
+  .header-nav {
+    height: 108px;
+  }
+  .header-nav .logo img {
+    max-width: 56px;
+  }
+  .header-nav nav .buttons a {
+    padding: 9px 24px 9px 24px;
+  }
+  .header-nav nav .buttons a:first-child {
+    display: none;
+  }
+  .header-nav nav .social {
+    display: none;
+  }
+  .advantages {
+    display: none;
+  }
+  .banner {
+    height: 473px;
+    width: 100%;
+  }
+  .banner .banner-info {
+    padding-top: 24px;
+  }
+  .banner .banner-info h1 {
+    font-size: 28px;
+    margin-bottom: 203px;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  .banner .banner-info .banner-description {
+    margin-bottom: 32px;
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .banner-img img {
+    position: relative;
+    width: 340px;
+    height: auto;
+    right: 340px;
+    bottom: -90px;
+    display: block;
+  }
+  .pricing {
+    background-image: url(/img/375/pricing-border375.svg);
+    background-size: 99%;
+    height: 683px;
+  }
+  .pricing-img {
+    position: absolute;
+    top: 40px;
+    max-width: 44px;
+    left: calc(50% - 22px);
+  }
+  .pricing-item {
+    height: 100%;
+    padding-top: 110px;
+  }
+  .pricing-item .connect {
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .pricing-item .connect input {
+    width: 285px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+  }
+  .pricing-item .connect a {
+    width: 285px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 5px;
+  }
+  .pricing-description {
+    display: grid;
+    margin: 0 auto;
+    max-width: 340px;
+    gap: 0px;
+    margin-bottom: -8px;
+    justify-content: center;
+  }
+  .pricing-description .condition {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .pricing-description .custom-li {
+    width: 100%;
+    height: auto;
+  }
+  .pricing-description .custom-li li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  .channels {
+    height: 498px;
+  }
+  .channels-title {
+    text-align: center;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .channels-title h2 {
+    height: 40px;
+  }
+  .channels-title h2::after {
+    bottom: 20px;
+    left: 165px;
+  }
+  .channels-title p {
+    margin: 13px 0 32px 0;
+  }
+  .channels-filter {
+    display: none;
+  }
+  .channels-list {
+    gap: 16px 16px;
+    margin-bottom: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .channels-list .channel img {
+    width: 100%;
+  }
+  .devices {
+    height: 652px;
+    padding-top: 16px;
+  }
+  .devices-info {
+    text-align: center;
+  }
+  .devices-info .devices-description {
+    max-width: 100%;
+  }
+  .devices-info .devices-description p {
+    margin-bottom: 230px;
+  }
+  .devices-info .devices-description a {
+    margin-bottom: 32px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .devices-templates {
+    flex-wrap: wrap;
+  }
+  .devices-templates div {
+    width: 50%;
+  }
+  .devices-img img {
+    position: relative;
+    bottom: 300px;
+    width: 300px !important;
+    left: 16px;
+    display: block;
+    z-index: -1;
+  }
+  .faq {
+    height: 699px;
+    padding-top: 32px;
+  }
+  .faq h2 {
+    margin-bottom: 32px;
+  }
+  .faq-item {
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .faq-columns {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    height: 574px;
+  }
+  footer .about {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  footer .about ul {
+    max-width: 150px;
+  }
+  footer .support {
+    display: flex;
+  }
+  footer .support p {
+    display: none;
+  }
+  footer .support-social p {
+    display: block;
+  }
+  footer .payment {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  footer .payment img {
+    height: 32px;
+  }
+}/*# sourceMappingURL=375.css.map */

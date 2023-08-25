@@ -1,0 +1,186 @@
+@media (max-width: 768px) {
+  body {
+    background-image: url(/img/768/768bg.png);
+    background-size: 100% 2990px;
+  }
+  body h2 {
+    font-size: 30px;
+  }
+  body .container {
+    padding: 0 40px 0 40px;
+  }
+  body .big-btn {
+    font-size: 17px;
+    padding: 16px 24px 16px 24px;
+    width: 380px;
+  }
+  .header-nav {
+    height: 110px;
+  }
+  .header-nav .logo img {
+    max-width: 64px;
+  }
+  .banner {
+    height: 333px;
+  }
+  .banner .banner-info {
+    padding-top: 48px;
+    width: 400px;
+    min-width: none;
+  }
+  .banner .banner-info h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .banner .banner-info .banner-description {
+    margin-bottom: 34px;
+    font-size: 17px;
+  }
+  .banner-img img {
+    display: none;
+  }
+  .advantages {
+    height: 173px;
+    padding-top: 24px;
+  }
+  .advantages .advantage-item {
+    width: 206px;
+  }
+  .advantages .advantage-item .advantage-info p {
+    display: none;
+  }
+  .advantages .advantage-item .advantage-info span {
+    font-size: 16px;
+  }
+  .advantages .advantage-img {
+    margin-bottom: 12px;
+  }
+  .advantages .advantage-img img {
+    width: 48px;
+  }
+  .pricing {
+    background-image: url(/img/768/pricing-border768.svg);
+    background-size: 100%;
+    height: 512px;
+  }
+  .pricing-img {
+    top: 63px;
+    max-width: 46px;
+    left: calc(50% - 23px);
+  }
+  .pricing-item .connect {
+    max-width: 570px;
+  }
+  .pricing-item .connect input {
+    width: 300px;
+    height: 53px;
+  }
+  .pricing-item .connect a {
+    width: 270px;
+    height: 53px;
+    padding: 16px 32px 16px 32px;
+    font-size: 17px;
+  }
+  .pricing-description .condition {
+    margin-top: 49px;
+    font-size: 16px;
+  }
+  .pricing-description .custom-li li {
+    font-size: 16px;
+  }
+  .channels {
+    height: 611px;
+  }
+  .channels .show-all {
+    margin-bottom: 24px;
+  }
+  .channels-title h2::after {
+    bottom: 40px;
+    left: 186px;
+  }
+  .channels-title p {
+    margin: 16px 0 32px 0;
+  }
+  .channels-filter {
+    margin-bottom: 40px;
+  }
+  .channels-filter ul {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .channels-filter ul li {
+    padding: 12px 18px 12px 18px;
+    font-size: 14px;
+    width: 23%;
+  }
+  .channels-list {
+    gap: 24px 32px;
+    margin-bottom: 28px;
+  }
+  .channels-list .channel img {
+    width: 100%;
+  }
+  .devices {
+    height: 440px;
+    padding-top: 32px;
+  }
+  .devices-info .devices-description {
+    max-width: 530px;
+  }
+  .devices-info .devices-description p {
+    margin-bottom: 32px;
+  }
+  .devices-info .devices-description a {
+    margin-bottom: 54px;
+  }
+  .devices-img img {
+    display: none;
+  }
+  .faq {
+    height: 388px;
+    padding-top: 40px;
+  }
+  .faq h2 {
+    margin-bottom: 24px;
+  }
+  .faq-item {
+    max-width: 330px;
+    min-height: 64px;
+    margin-bottom: 24px;
+  }
+  .faq-item button {
+    min-width: 290px;
+    font-size: 16px;
+  }
+  .faq-item button span {
+    max-width: 260px;
+    font-size: 16px;
+  }
+  .faq-item .answear {
+    font-size: 14px;
+    max-width: 260px;
+    margin-bottom: 40px;
+    display: none;
+  }
+  .faq-item .active {
+    display: none;
+  }
+  footer {
+    height: 413px;
+  }
+  footer .about ul {
+    margin-bottom: 28px;
+  }
+  footer .support-social img {
+    width: 32px;
+    height: 32px;
+  }
+  footer .payment img {
+    height: 32px;
+  }
+  footer .footer-company {
+    max-width: 188px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=768.css.map */
